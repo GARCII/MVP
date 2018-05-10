@@ -23,7 +23,7 @@ class LoginPresenter extends BasePresenter implements LoginContract.Presenter {
     @Override
     public void login(String email, String password) {
 
-       if(!email.equals("admin") && !password.equals("admin")){
+       if(!email.equals("mvp@admin.com") && !password.equals("admin")){
            view.onError("Email or password is invalide");
        }else{
            appPreferencesHelper.setConnected(true);

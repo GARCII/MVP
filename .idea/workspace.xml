@@ -9,20 +9,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22423278-30bc-468d-bcec-aef7aca1a53e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+    <list default="true" id="22423278-30bc-468d-bcec-aef7aca1a53e" name="Default" comment="implement logout logic - logout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomeActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomeContract.java" afterPath="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomeContract.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomePresenter.java" afterPath="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomePresenter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/login/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/login/LoginActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/login/LoginPresenter.java" afterPath="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/login/LoginPresenter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
@@ -75,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPresenter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginPresenter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/login/LoginPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="18" column="83" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="83" />
+            <state relative-caret-position="322">
+              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2208,12 +2197,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/data/preferences/AppPreferencesHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/data/preferences/PreferencesHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/login/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/login/LoginPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomeContract.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomePresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/login/LoginPresenter.java" />
       </list>
     </option>
   </component>
@@ -2515,7 +2504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525976802130</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implement logout logic - logout">
+      <created>1525978444345</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525978444345</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2524,8 +2520,8 @@
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2034188" sideWeight="0.5060514" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2034188" sideWeight="0.45612708" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2034188" sideWeight="0.52874434" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2034188" sideWeight="0.47125566" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2034188" sideWeight="0.45537066" order="10" side_tool="false" content_ui="tabs" />
@@ -2564,7 +2560,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="integrate login logic" />
     <MESSAGE value="integrate remember me logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrate remember me logic" />
+    <MESSAGE value="implement logout logic - logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement logout logic - logout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2736,12 +2733,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/login/LoginPresenter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="18" column="83" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="83" />
+        <state relative-caret-position="214">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2756,15 +2756,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/home/HomeActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/prod/mvp/ui/login/LoginPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        <state relative-caret-position="322">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
