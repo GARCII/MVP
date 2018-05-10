@@ -12,12 +12,13 @@ public interface HomeContract {
 
 
     interface View extends BaseContract.View {
-
+        void bindComponent();
+        void navigateToLogin();
     }
 
 
     interface Presenter extends BaseContract.Presenter {
-
+        void logout();
     }
 
 

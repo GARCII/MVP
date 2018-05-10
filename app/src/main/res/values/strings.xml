@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MVP Sample</string>
+    <string name="home_text"> This is a sample how you can work with MVP architecture </string>
 </resources>

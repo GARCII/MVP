@@ -24,6 +24,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.View {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        appPreferencesHelper = new AppPreferencesHelper(getApplicationContext(),"PREF_KEY_CONNECTED");
         presenter = new LoginPresenter(this, getApplicationContext());
         bindComponent();
 

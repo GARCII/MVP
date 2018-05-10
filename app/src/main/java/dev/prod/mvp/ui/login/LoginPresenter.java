@@ -16,7 +16,7 @@ class LoginPresenter extends BasePresenter implements LoginContract.Presenter {
     LoginPresenter(LoginContract.View view, Context context) {
         this.view = view;
         this.context = context;
-        appPreferencesHelper = new AppPreferencesHelper(context,"PREFERENCE_USER");
+        appPreferencesHelper = new AppPreferencesHelper(context,"PREF_KEY_CONNECTED");
     }
 
 
