@@ -73,6 +73,6 @@ public final class Common {
     }
 
     public static String getTimeStamp() {
-        return new SimpleDateFormat(Constants.TIMESTAMP_FORMAT, Locale.US).format(new Date());
+        return new SimpleDateFormat("yy", Locale.US).format(new Date());
     }
 }

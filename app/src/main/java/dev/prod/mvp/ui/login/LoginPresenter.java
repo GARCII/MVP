@@ -15,9 +15,15 @@ class LoginPresenter extends BasePresenter implements LoginContract.Presenter {
     LoginPresenter(LoginContract.View view, Context context) {
         this.view = view;
         this.context = context;
-
-
     }
 
 
+    @Override
+    public void login(String email, String password) {
+       if(email.equals("admin") && password.equals("admin")){
+           view.navigateToHome();
+       }else{
+           view.onError("Email or password is invalide");
+       }
+    }
 }
