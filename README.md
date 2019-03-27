@@ -5,5 +5,6 @@ This repository contains a sample app that implements MVP architecture with a si
 Login credential :
 
 Email : mvp@admin.com
+
 Passowrd : admin
 
